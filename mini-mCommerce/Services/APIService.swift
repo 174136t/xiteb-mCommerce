@@ -11,6 +11,7 @@ class APIService{
     static let shared = APIService()
     private let mockURL = "https://fakestoreapi.com"
     
+    //-- to fetch all products
     func fetchProducts() async throws -> [Product] {
         guard let url = URL(string: "\(mockURL)/products") else {
             throw APIError.invalidURL
@@ -20,6 +21,7 @@ class APIService{
         return try JSONDecoder().decode([Product].self, from: data)
     }
     
+    //-- to fetch only relevant product if needed
     func fetchProduct(id: Int) async throws -> Product {
         guard let url = URL(string: "\(mockURL)/products/\(id)") else {
             throw APIError.invalidURL
