@@ -28,3 +28,12 @@ Or use SSH if configured:
 - SwiftUI for declarative UI
 - async/await for network operations
 - UserDefaults for local persistence
+
+## Features
+- Product listing with images, names and prices
+- Detailed product view with ratings and descriptions
+- Shopping cart with quantity management
+- Modern iOS UI with native navigation
+
+## Time Taken
+Approximately 11-12 hours for complete implementation
