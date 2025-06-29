@@ -37,3 +37,6 @@ Or use SSH if configured:
 
 ## Time Taken
 Approximately 11-12 hours for complete implementation
+
+## Testing
+- Unit tests for CartService methods - (AddToCart, RemoveFromCart and UpdateQuantity)
