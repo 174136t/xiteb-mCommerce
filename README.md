@@ -21,3 +21,10 @@ Or use SSH if configured:
 ## Libraries Used
 - Native iOS frameworks only (SwiftUI, Combine, Foundation)
 - FakeStore API for product data
+
+## Architecture
+- MVVM pattern with Combine for reactive programming
+- Service layer for API and business logic
+- SwiftUI for declarative UI
+- async/await for network operations
+- UserDefaults for local persistence
