@@ -9,8 +9,8 @@ Mini mCommerce iOS Application
   
 ## Setup Instructions
 1. Clone the repository:
-git clone https://github.com/174136t/xiteb-mCommerce.git
-cd xiteb-mCommerce
+- git clone https://github.com/174136t/xiteb-mCommerce.git
+- cd xiteb-mCommerce
 
 Or use SSH if configured:
 - git clone git@github.com:174136t/xiteb-mCommerce.git
